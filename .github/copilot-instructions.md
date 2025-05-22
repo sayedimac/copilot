@@ -1,4 +1,4 @@
-Here’s a step-by-step guide in Markdown format for setting up an ASP.NET web front-end with a Node.js Azure Function backend, orchestrated using .NET Aspire. This includes a test project, Aspire host, and service defaults—ready to be used with GitHub Copilot Agent:
+Here’s a step-by-step guide in Markdown format for setting up an ASP.NET web front-end with a Node.js Azure Function backend, orchestrated using .NET Aspire. This includes a test project, Aspire host, and Service Defaults Projects.
 
 
 ---
@@ -19,16 +19,6 @@ The projects all live in the src folder, but docker and other files are in the r
 ├── /AspireHost         # Aspire orchestration project
 └── AspireSolution.sln  # Solution file
 ```
-
----
-
-## ✅ Prerequisites
-
-- https://dotnet.microsoft.com/en-us/download
-- https://nodejs.org/
-- https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
-- https://visualstudio.microsoft.com/
-- https://www.docker.com/products/docker-desktop/ (optional for containerized services)
 
 ---
 
