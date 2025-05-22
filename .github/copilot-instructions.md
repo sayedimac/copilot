@@ -1,7 +1,7 @@
 Here’s a step-by-step guide in Markdown format for setting up an ASP.NET web front-end with a Node.js Azure Function backend, orchestrated using .NET Aspire. This includes a test project, Aspire host, and Service Defaults Projects.
 
-
 ---
+
 The projects all live in the src folder, but docker and other files are in the root
 
 ---
@@ -17,7 +17,7 @@ The projects all live in the src folder, but docker and other files are in the r
 ├── /src/backend                # Node.js Azure Function
 ├── /src/tests                  # Aspire NUnit Test project
 ├── /src/AspireHost             # Aspire orchestration project
-├── /src/AspireServiceDefaults  # Aspire Service Defaults 
+├── /src/AspireServiceDefaults  # Aspire Service Defaults
 └── AspireSolution.sln      # Solution file
 ```
 
@@ -25,19 +25,15 @@ The projects all live in the src folder, but docker and other files are in the r
 
 ## 1. 🧱 Create the Aspire Solution
 
-
 ---
 
 ## 2. 🌐 Add ASP.NET Core Frontend
-
-
 
 Update `frontend` to call the backend API (e.g., update env variable to point to API endpoint).
 
 ---
 
 ## 3. ⚙️ Add Node.js Azure Function Backend
-
 
 Update `GetData/index.js` to return sample JSON data.
 
