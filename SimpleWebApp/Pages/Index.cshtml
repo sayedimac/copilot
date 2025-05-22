@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Our Simple Web App</h1>
+    <p>This is a simple .NET web application created with ASP.NET Core.</p>
+    
+    <div class="mt-4">
+        <h2>Features</h2>
+        <ul class="list-unstyled">
+            <li>Built with ASP.NET Core 8.0</li>
+            <li>Uses Razor Pages for a simple, yet powerful web experience</li>
+            <li>Responsive design with Bootstrap</li>
+            <li>Includes a simple Weather API - <a href="/api/weather" target="_blank">Try it now!</a></li>
+        </ul>
+    </div>
+    
+    <div class="mt-4">
+        <p>Current server time: @DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</p>
+    </div>
+</div>
