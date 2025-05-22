@@ -7,7 +7,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 var frontend = builder.AddProject<Projects.frontend>("frontend");
 
 // Add backend C# Azure Functions project
-var backend = builder.AddProject<Projects.backend_csharp>("backend")
+var backend = builder.AddProject<Projects.backend_csharp>("backend-csharp")
     .WithHttpEndpoint(hostPort: 7071, targetPort: 7071, name: "backend-api");
 
 // Connect the frontend to the backend
