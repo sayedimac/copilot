@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireServiceDefaults\AspireServiceDefaults.csproj" />
+    <ProjectReference Include="..\backend-csharp\backend-csharp.csproj" />
   </ItemGroup>
 
 </Project>
